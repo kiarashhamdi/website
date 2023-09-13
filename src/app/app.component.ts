@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
+  pdfSrc = "https://github.com/kiarashhamdi/website/blob/implementAngular/src/assets/resume/cv.pdf";
+
 }

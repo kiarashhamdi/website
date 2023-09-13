@@ -1,2 +1,9 @@
 <h1>welcome</h1>
 <h1>Hi this is my website</h1>
+<!-- <object data="/assets/resume/cv.pdf" type="application/pdf"></object> -->
+
+<pdf-viewer [src]="pdfSrc"
+              [render-text]="true"
+              [original-size]="false"
+              style="width: 400px; height: 500px"
+  ></pdf-viewer>
